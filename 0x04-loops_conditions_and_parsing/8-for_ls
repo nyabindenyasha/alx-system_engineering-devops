@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+#special ls
 
-for i in *;
+for i in *
 do
-	echo "$i" | cut -d$"-" -f2
+    echo "$i" | cut -d '-' -f 2;
 done
